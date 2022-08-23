@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/actuatorClient/actuatorClient.iml" filepath="$PROJECT_DIR$/actuatorClient/actuatorClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/actuatorServer/actuatorServer.iml" filepath="$PROJECT_DIR$/actuatorServer/actuatorServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot.iml" filepath="$PROJECT_DIR$/spring-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-01/spring-boot-01.iml" filepath="$PROJECT_DIR$/spring-boot-01/spring-boot-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-autoconfig/spring-boot-autoconfig.iml" filepath="$PROJECT_DIR$/spring-boot-autoconfig/spring-boot-autoconfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-crud/spring-boot-crud.iml" filepath="$PROJECT_DIR$/spring-boot-crud/spring-boot-crud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-interceptor/spring-boot-interceptor.iml" filepath="$PROJECT_DIR$/spring-boot-interceptor/spring-boot-interceptor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-jsp/spring-boot-jsp.iml" filepath="$PROJECT_DIR$/spring-boot-jsp/spring-boot-jsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis/spring-boot-mybatis.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis/spring-boot-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-start/spring-boot-start.iml" filepath="$PROJECT_DIR$/spring-boot-start/spring-boot-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-thymeleaf/spring-boot-thymeleaf.iml" filepath="$PROJECT_DIR$/spring-boot-thymeleaf/spring-boot-thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/start-autoconfig-test/start-autoconfig-test.iml" filepath="$PROJECT_DIR$/start-autoconfig-test/start-autoconfig-test.iml" />
+    </modules>
+  </component>
+</project>

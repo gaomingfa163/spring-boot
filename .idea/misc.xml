@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/spring-boot-01/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-actuator/spring-boot-actuator-client/pom.xml" />
+        <option value="$PROJECT_DIR$/actuatorClient/pom.xml" />
+        <option value="$PROJECT_DIR$/actuatorServer/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-autoconfig/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-start/pom.xml" />
+        <option value="$PROJECT_DIR$/start-autoconfig-test/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-crud/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

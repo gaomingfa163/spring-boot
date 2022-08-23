@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>spring boot集成Thymeleaf</title>
+</head>
+
+<body>
+    <!--/*@thymesVar id="name" type=""*/-->
+    <p th:text="${name}">spring boot集成Thymeleaf</p>
+
+
+    <!--获取对象数据-->
+    <table>
+        <tr>
+            <td th:text="${user.id}">1</td>
+            <!--/*@thymesVar id="name" type=""*/-->
+            <td th:text="${user.name}">Q</td>
+        </tr>
+    </table>
+    <!--选择变量表达式-->
+    <table>
+        <tr th:object="${user}">
+            <td th:text="*{id}">1</td>
+            <!--/*@thymesVar id="name" type=""*/-->
+            <td th:text="*{name}">Q</td>
+        </tr>
+    </table>
+
+    <!--url表达式 参数拼接-->
+    <a href="info.html" th:href="@{/user/info(id=${user.id})}">参数拼接</a>
+    <a href="info.html" th:href="@{/user/info(id=${user.id},name=${user.name})}">多参数拼接</a>
+</body>
+
+</html>

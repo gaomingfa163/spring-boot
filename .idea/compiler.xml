@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-thymeleaf" />
+        <module name="spring-boot-interceptor" />
+        <module name="spring-boot-autoconfig" />
+        <module name="actuatorServer" />
+        <module name="actuatorClient" />
+        <module name="spring-boot-crud" />
+        <module name="spring-boot-mybatis" />
+        <module name="spring-boot-01" />
+        <module name="spring-boot-jsp" />
+        <module name="spring-boot-start" />
+        <module name="start-autoconfig-test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="actuatorClient" target="1.8" />
+      <module name="actuatorServer" target="1.8" />
+      <module name="spring-boot-01" target="1.8" />
+      <module name="spring-boot-actuator-client" target="1.8" />
+      <module name="spring-boot-actuatorclient" target="1.8" />
+      <module name="spring-boot-autoconfig" target="1.8" />
+      <module name="spring-boot-crud" target="1.8" />
+      <module name="spring-boot-interceptor" target="1.8" />
+      <module name="spring-boot-jsp" target="1.8" />
+      <module name="spring-boot-mybatis" target="1.8" />
+      <module name="spring-boot-start" target="1.8" />
+      <module name="spring-boot-thymeleaf" target="1.8" />
+      <module name="start-autoconfig-test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="actuatorClient" options="-parameters" />
+      <module name="actuatorServer" options="-parameters" />
+      <module name="spring-boot-01" options="-parameters" />
+      <module name="spring-boot-actuator-client" options="-parameters" />
+      <module name="spring-boot-actuatorclient" options="-parameters" />
+      <module name="spring-boot-autoconfig" options="-parameters" />
+      <module name="spring-boot-crud" options="-parameters" />
+      <module name="spring-boot-interceptor" options="-parameters" />
+      <module name="spring-boot-jsp" options="-parameters" />
+      <module name="spring-boot-mybatis" options="-parameters" />
+      <module name="spring-boot-start" options="-parameters" />
+      <module name="spring-boot-thymeleaf" options="-parameters" />
+      <module name="start-autoconfig-test" options="-parameters" />
+    </option>
+  </component>
+</project>
